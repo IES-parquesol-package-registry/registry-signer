@@ -21,3 +21,5 @@ target/
 /target
 /.idea/misc.xml
 /.idea/vcs.xml
+/.idea/registry-signer.iml
+/.idea/modules.xml
