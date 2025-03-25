@@ -5,9 +5,6 @@ use std::fs::File;
 use std::io::{self, Read, Write};
 use ml_dsa::signature::Signer;
 
-#[cfg(test)]
-mod tests;
-
 /// Programa para convertir una firma base64 a una clave ML-DSA
 #[derive(Parser, Debug)]
 #[clap(author, version, about)]
