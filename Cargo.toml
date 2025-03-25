@@ -1,6 +1,10 @@
 [package]
 name = "registry-signer"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
+base64 = "0.22.1"
+ml-dsa = { version = "0.1.0-pre.2", features = ["zeroize"] }
+clap = { version = "4.5.32", features = ["derive"] }
+rand = "0.9.0"
